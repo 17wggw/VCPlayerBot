@@ -36,7 +36,7 @@ class Config:
     ADMINS = [int(admin) for admin in (ADMIN).split()] #group admins will be appended to this list.
     API_ID = int(os.environ.get("27886604", ''))
     API_HASH = os.environ.get("4f4964c251b6e93a4998e8bb19bd162d", "")
-    BOT_TOKEN = os.environ.get("5613023874:AAHwHqFYAt5CkbuCBtkaj-8obxeIrwP18ug", "")     
+    BOT_TOKEN = os.environ.get("AAHwHqFYAt5CkbuCBtkaj-8obxeIrwP18ug", "")     
     SESSION = os.environ.get("SESSION_STRING", "")
 
     #Stream Chat and Log Group
